@@ -1,4 +1,6 @@
 FROM php:8.1-fpm
+EXPOSE 5173
+# EXPOSE 8000
 # php.ini（ローカル）をホスト【コンテナ】（/usr/local/etc/php/）にコピーする
 COPY php.ini /usr/local/etc/php/
 
